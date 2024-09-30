@@ -1,0 +1,339 @@
+CRITICAL - 2024-09-21 01:26:21 --> Error: Undefined constant "userID"
+[Method: GET, Route: user]
+in APPPATH\Views\users_Mgt.php on line 40.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('users_Mgt', [], true)
+ 4 APPPATH\Controllers\Users.php(15): view('users_Mgt', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->userMgt()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 01:43:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editUser/1]
+in APPPATH\Views\edit_user.php on line 11.
+ 1 APPPATH\Views\edit_user.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(20): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->editUser()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 01:46:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editUser/1]
+in APPPATH\Views\edit_user.php on line 11.
+ 1 APPPATH\Views\edit_user.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(20): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->editUser()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 01:48:47 --> ErrorException: Undefined variable $us
+[Method: GET, Route: editUser/1]
+in APPPATH\Views\edit_user.php on line 11.
+ 1 APPPATH\Views\edit_user.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $us', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(20): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->editUser()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 01:48:53 --> ErrorException: Undefined variable $us
+[Method: GET, Route: editUser/1]
+in APPPATH\Views\edit_user.php on line 11.
+ 1 APPPATH\Views\edit_user.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $us', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(20): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->editUser()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 01:50:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editUser/1]
+in APPPATH\Views\edit_user.php on line 11.
+ 1 APPPATH\Views\edit_user.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(20): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->editUser()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 01:59:54 --> ErrorException: Undefined array key "gender"
+[Method: GET, Route: editUser/4]
+in APPPATH\Views\edit_user.php on line 20.
+ 1 APPPATH\Views\edit_user.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(20): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->editUser('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:02:30 --> ErrorException: Undefined array key "ContactNo"
+[Method: GET, Route: editUser/4]
+in APPPATH\Views\edit_user.php on line 27.
+ 1 APPPATH\Views\edit_user.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ContactNo"', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(20): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->editUser('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:39:18 --> ErrorException: Undefined variable $i
+[Method: POST, Route: updateUser]
+in APPPATH\Controllers\Users.php on line 51.
+ 1 APPPATH\Controllers\Users.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'D:\\laragon\\www\\AdvanceData\\app\\Controllers\\Users.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:41:11 --> ErrorException: Undefined variable $u
+[Method: POST, Route: updateUser]
+in APPPATH\Controllers\Users.php on line 51.
+ 1 APPPATH\Controllers\Users.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $u', 'D:\\laragon\\www\\AdvanceData\\app\\Controllers\\Users.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+ERROR - 2024-09-21 02:47:12 --> mysqli_sql_exception: Unknown column 'ContactNo' in 'field list' in D:\laragon\www\AdvanceData\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\AdvanceData\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_use...', 0)
+#1 D:\laragon\www\AdvanceData\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_use...')
+#2 D:\laragon\www\AdvanceData\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_use...')
+#3 D:\laragon\www\AdvanceData\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_use...', Array, false)
+#4 D:\laragon\www\AdvanceData\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\laragon\www\AdvanceData\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\laragon\www\AdvanceData\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\laragon\www\AdvanceData\app\Controllers\Users.php(51): CodeIgniter\Model->update()
+#8 D:\laragon\www\AdvanceData\system\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+#9 D:\laragon\www\AdvanceData\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 D:\laragon\www\AdvanceData\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\AdvanceData\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\AdvanceData\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\AdvanceData\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\AdvanceData\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-09-21 02:47:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ContactNo' in 'field list'
+[Method: POST, Route: updateUser]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_users` SET `Fname` = :Fname:, `Lname` = :Lname:, `Mi` = :Mi:, `Bdate` = :Bdate:, `Gender` = :Gender:, `Address` = :Address:, `ContactNo` = :ContactNo:, `Email` = :Email:, `Username` = :Username:, `Password` = :Password:, `Role` = :Role:
+WHERE `userID` = :userID:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Users.php(51): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:47:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ContactNo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_users` SET `Fname` = \'Alice\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_users` SET `Fname` = \'Alice\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_users` SET `Fname` = :Fname:, `Lname` = :Lname:, `Mi` = :Mi:, `Bdate` = :Bdate:, `Gender` = :Gender:, `Address` = :Address:, `ContactNo` = :ContactNo:, `Email` = :Email:, `Username` = :Username:, `Password` = :Password:, `Role` = :Role:
+WHERE `userID` = :userID:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Users.php(51): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:47:12 --> [Caused by] mysqli_sql_exception: Unknown column 'ContactNo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_users` SET `Fname` = \'Alice\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_users` SET `Fname` = \'Alice\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_users` SET `Fname` = \'Alice\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_users` SET `Fname` = :Fname:, `Lname` = :Lname:, `Mi` = :Mi:, `Bdate` = :Bdate:, `Gender` = :Gender:, `Address` = :Address:, `ContactNo` = :ContactNo:, `Email` = :Email:, `Username` = :Username:, `Password` = :Password:, `Role` = :Role:
+WHERE `userID` = :userID:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Users.php(51): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+ERROR - 2024-09-21 02:47:25 --> mysqli_sql_exception: Unknown column 'ContactNo' in 'field list' in D:\laragon\www\AdvanceData\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\AdvanceData\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_use...', 0)
+#1 D:\laragon\www\AdvanceData\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_use...')
+#2 D:\laragon\www\AdvanceData\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_use...')
+#3 D:\laragon\www\AdvanceData\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_use...', Array, false)
+#4 D:\laragon\www\AdvanceData\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\laragon\www\AdvanceData\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\laragon\www\AdvanceData\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\laragon\www\AdvanceData\app\Controllers\Users.php(51): CodeIgniter\Model->update()
+#8 D:\laragon\www\AdvanceData\system\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+#9 D:\laragon\www\AdvanceData\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 D:\laragon\www\AdvanceData\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\AdvanceData\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\AdvanceData\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\laragon\www\AdvanceData\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\laragon\www\AdvanceData\system\rewrite.php(44): require_once('D:\\laragon\\www\\...')
+#15 {main}
+CRITICAL - 2024-09-21 02:47:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ContactNo' in 'field list'
+[Method: POST, Route: updateUser]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_users` SET `Fname` = :Fname:, `Lname` = :Lname:, `Mi` = :Mi:, `Bdate` = :Bdate:, `Gender` = :Gender:, `Address` = :Address:, `ContactNo` = :ContactNo:, `Email` = :Email:, `Username` = :Username:, `Password` = :Password:, `Role` = :Role:
+WHERE `userID` = :userID:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Users.php(51): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:47:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ContactNo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_users` SET `Fname` = \'Juan\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_users` SET `Fname` = \'Juan\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_users` SET `Fname` = :Fname:, `Lname` = :Lname:, `Mi` = :Mi:, `Bdate` = :Bdate:, `Gender` = :Gender:, `Address` = :Address:, `ContactNo` = :ContactNo:, `Email` = :Email:, `Username` = :Username:, `Password` = :Password:, `Role` = :Role:
+WHERE `userID` = :userID:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Users.php(51): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:47:25 --> [Caused by] mysqli_sql_exception: Unknown column 'ContactNo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_users` SET `Fname` = \'Juan\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_users` SET `Fname` = \'Juan\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_users` SET `Fname` = \'Juan\', `Lname` = NULL, `Mi` = \'Santiago\', `Bdate` = \'2014-08-10\', `Gender` = NULL, `Address` = \'Sta Lucia Pampanga \', `ContactNo` = \'0987545542\', `Email` = \'jdc@gmail.com\', `Username` = \'Juan123\', `Password` = \'pass1234\', `Role` = \'2\'
+WHERE `userID` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_users` SET `Fname` = :Fname:, `Lname` = :Lname:, `Mi` = :Mi:, `Bdate` = :Bdate:, `Gender` = :Gender:, `Address` = :Address:, `ContactNo` = :ContactNo:, `Email` = :Email:, `Username` = :Username:, `Password` = :Password:, `Role` = :Role:
+WHERE `userID` = :userID:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Users.php(51): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:49:44 --> Error: Undefined constant "App\Controllers\redirect"
+[Method: POST, Route: updateUser]
+in APPPATH\Controllers\Users.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:50:03 --> Error: Undefined constant "App\Controllers\redirect"
+[Method: POST, Route: updateUser]
+in APPPATH\Controllers\Users.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:50:31 --> Error: Undefined constant "App\Controllers\redirect"
+[Method: POST, Route: updateUser]
+in APPPATH\Controllers\Users.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:53:58 --> Error: Undefined constant "App\Controllers\redirect"
+[Method: POST, Route: updateUser]
+in APPPATH\Controllers\Users.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-21 02:54:42 --> Error: Undefined constant "App\Controllers\redirect"
+[Method: POST, Route: updateUser]
+in APPPATH\Controllers\Users.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->updateUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')

@@ -1,0 +1,75 @@
+CRITICAL - 2024-09-27 12:05:12 --> ErrorException: Undefined array key "ContantNo"
+[Method: GET, Route: user]
+in APPPATH\Views\users_Mgt.php on line 35.
+ 1 APPPATH\Views\users_Mgt.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ContantNo"', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\users_Mgt.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\users_Mgt.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('users_Mgt', [], true)
+ 5 APPPATH\Controllers\Users.php(15): view('users_Mgt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->userMgt()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-27 12:05:12 --> ErrorException: Undefined array key "ContantNo"
+[Method: GET, Route: user]
+in APPPATH\Views\users_Mgt.php on line 35.
+ 1 APPPATH\Views\users_Mgt.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ContantNo"', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\users_Mgt.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\users_Mgt.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('users_Mgt', [], true)
+ 5 APPPATH\Controllers\Users.php(15): view('users_Mgt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->userMgt()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-27 12:05:49 --> ErrorException: Undefined array key "ContantNo"
+[Method: GET, Route: editUser/1]
+in APPPATH\Views\edit_user.php on line 31.
+ 1 APPPATH\Views\edit_user.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ContantNo"', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(20): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->editUser('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-27 12:37:50 --> ErrorException: Undefined variable $u
+[Method: GET, Route: practice]
+in APPPATH\Views\practice.php on line 14.
+ 1 APPPATH\Views\practice.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $u', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\practice.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\practice.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('practice', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('practice')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->practice()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
+CRITICAL - 2024-09-27 12:40:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: practice]
+in APPPATH\Views\practice.php on line 14.
+ 1 APPPATH\Views\practice.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\AdvanceData\\app\\Views\\practice.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\AdvanceData\\app\\Views\\practice.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('practice', [], true)
+ 5 APPPATH\Controllers\Users.php(26): view('practice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->practice()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\AdvanceData\\public\\index.php')
