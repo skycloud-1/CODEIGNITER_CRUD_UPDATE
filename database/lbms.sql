@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 20, 2024 at 04:39 AM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Generation Time: Sep 30, 2024 at 04:01 PM
+-- Server version: 10.4.18-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -36,7 +36,7 @@ CREATE TABLE `tbl_books` (
   `catID` int(11) NOT NULL,
   `description` text NOT NULL,
   `qty` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `tbl_books`
@@ -65,18 +65,13 @@ CREATE TABLE `tbl_borrowers` (
   `expected_due` date NOT NULL,
   `processIN_by` int(11) NOT NULL,
   `processOUT_by` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `tbl_borrowers`
 --
 
 INSERT INTO `tbl_borrowers` (`brID`, `studentNo`, `bookID`, `visitorID`, `date_Br`, `date_return`, `expected_due`, `processIN_by`, `processOUT_by`) VALUES
-(1, '23-1556', 1, 6, '2024-08-17 11:50:24', '2024-08-15 16:50:24', '2024-08-21', 4, 4),
-(2, '24-1457', 5, 5, '2024-08-14 08:52:16', '2024-08-16 14:52:16', '2024-08-24', 3, 4),
-(3, '24-0010', 2, 1, '2024-08-17 11:52:16', '2024-08-17 12:52:16', '2024-08-19', 4, 2),
-(4, '23-1100', 3, 4, '2024-08-23 14:52:16', '2024-08-23 14:52:16', '2024-08-25', 1, 2),
-(5, '24-1001', 4, 2, '2024-08-01 14:52:16', '2024-08-05 11:52:16', '2024-08-06', 1, 3),
 (6, '23-1325', 3, 3, '2024-08-23 14:52:16', '2024-08-23 14:52:16', '2024-08-24', 3, 3);
 
 -- --------------------------------------------------------
@@ -89,7 +84,7 @@ CREATE TABLE `tbl_categories` (
   `catID` int(11) NOT NULL,
   `Category` varchar(100) NOT NULL,
   `Rack` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `tbl_categories`
@@ -111,7 +106,7 @@ INSERT INTO `tbl_categories` (`catID`, `Category`, `Rack`) VALUES
 CREATE TABLE `tbl_roles` (
   `roleID` int(11) NOT NULL,
   `Role` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `tbl_roles`
@@ -135,7 +130,7 @@ CREATE TABLE `tbl_system_logs` (
   `userID` int(11) NOT NULL,
   `activity` text NOT NULL,
   `process_date` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -151,23 +146,22 @@ CREATE TABLE `tbl_users` (
   `Bdate` date NOT NULL,
   `Gender` varchar(50) NOT NULL,
   `Address` text NOT NULL,
-  `ContantNo` varchar(15) NOT NULL,
+  `ContactNo` int(11) DEFAULT NULL,
   `Email` varchar(50) NOT NULL,
   `Username` varchar(50) NOT NULL,
   `Password` varchar(50) NOT NULL,
   `Role` int(11) NOT NULL,
   `STATUS` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `tbl_users`
 --
 
-INSERT INTO `tbl_users` (`userID`, `Fname`, `Lname`, `Mi`, `Bdate`, `Gender`, `Address`, `ContantNo`, `Email`, `Username`, `Password`, `Role`, `STATUS`) VALUES
-(1, 'ADMIN', 'ADMIN', 'ADMIN', '2024-08-10', 'FEMALE', 'Sta Ana Pampanga', '099878676', 'admin@gmail.com', 'ADMIN', 'ADMIN', 1, 1),
-(2, 'Juan', 'Dela Cruz', 'Santiago', '2014-08-10', 'MALE', 'Sta Lucia Pampanga ', '0987545542', 'jdc@gmail.com', 'Juan123', 'pass1234', 2, 1),
-(3, 'Lyn', 'Guo', 'Tiu', '2001-08-01', 'FEMALE', 'Sta Ana Pampanga', '0913354556', 'lyn@gmail.com', 'lyn123', 'pass2', 3, 0),
-(4, 'Luis', 'Estacio', 'Martin', '2004-07-31', 'MALE', 'San Nicolas Pampanga', '092425251', 'LE@gmail.com', 'Luis^_^', 'pass123', 4, 0);
+INSERT INTO `tbl_users` (`userID`, `Fname`, `Lname`, `Mi`, `Bdate`, `Gender`, `Address`, `ContactNo`, `Email`, `Username`, `Password`, `Role`, `STATUS`) VALUES
+(3, 'Jake', 'Sim', 'Batumbakal', '2024-09-30', 'MALE', 'Sta Ana Pampanga', 913354556, 'jake@gmail.com', 'jikjik', '12345', 1, 0),
+(30, 'Kristel', 'Culala', 'Arias', '2024-09-03', 'MALE', 'Candaba', 2147483647, 'kc@gmail.com', 'kc', 'kimkim8', 2, 2),
+(35, 'Jay', 'Park', 'Sky', '2003-03-04', 'MALE', 'Sta Ana ', 98765444, 'jay@gmail.com', 'Jayjay', 'jay123', 3, 3);
 
 -- --------------------------------------------------------
 
@@ -184,7 +178,7 @@ CREATE TABLE `tbl_visitors` (
   `StudentNO` varchar(50) NOT NULL,
   `timeIN` datetime NOT NULL,
   `timeOUT` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `tbl_visitors`
@@ -289,7 +283,7 @@ ALTER TABLE `tbl_system_logs`
 -- AUTO_INCREMENT for table `tbl_users`
 --
 ALTER TABLE `tbl_users`
-  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT for table `tbl_visitors`
@@ -313,8 +307,8 @@ ALTER TABLE `tbl_books`
 ALTER TABLE `tbl_borrowers`
   ADD CONSTRAINT `tbl_borrowers_ibfk_1` FOREIGN KEY (`bookID`) REFERENCES `tbl_books` (`bookID`),
   ADD CONSTRAINT `tbl_borrowers_ibfk_2` FOREIGN KEY (`visitorID`) REFERENCES `tbl_visitors` (`visitorID`),
-  ADD CONSTRAINT `tbl_borrowers_ibfk_3` FOREIGN KEY (`processIN_by`) REFERENCES `tbl_users` (`userID`),
-  ADD CONSTRAINT `tbl_borrowers_ibfk_4` FOREIGN KEY (`processOUT_by`) REFERENCES `tbl_users` (`userID`);
+  ADD CONSTRAINT `tbl_borrowers_ibfk_3` FOREIGN KEY (`processIN_by`) REFERENCES `tbl_users` (`userID`) ON DELETE CASCADE,
+  ADD CONSTRAINT `tbl_borrowers_ibfk_4` FOREIGN KEY (`processOUT_by`) REFERENCES `tbl_users` (`userID`) ON DELETE CASCADE;
 
 --
 -- Constraints for table `tbl_system_logs`
